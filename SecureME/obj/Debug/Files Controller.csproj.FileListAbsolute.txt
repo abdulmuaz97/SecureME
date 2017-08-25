@@ -1,0 +1,43 @@
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\bin\Debug\SecureME.exe.config
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\bin\Debug\SecureME.exe
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\bin\Debug\SecureME.pdb
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.ABOUT_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.CHANGE_PASSWORD_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.FOLDERS_DIALOG_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.HELP_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.MAIN_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.Properties.Resources.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.FILES_DIALOG_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.LOGIN_FRM.resources
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\Files Controller.csproj.GenerateResource.Cache
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.exe
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\SecureME.pdb
+C:\Users\AbdulMuaz Aqeel\documents\visual studio 2012\Projects\Files Controller\Files Controller\obj\Debug\Files Controller.csprojResolveAssemblyReference.cache
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\bin\Debug\SecureME.exe.config
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\bin\Debug\SecureME.exe
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\bin\Debug\SecureME.pdb
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.ABOUT_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.CHANGE_PASSWORD_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.FOLDERS_DIALOG_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.HELP_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.MAIN_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.Properties.Resources.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.FILES_DIALOG_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.LOGIN_FRM.resources
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\Files Controller.csproj.GenerateResource.Cache
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.exe
+C:\Users\AbdulMuaz Aqeel\Desktop\SecureME\SecureME\obj\Debug\SecureME.pdb
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\bin\Debug\SecureME.exe.config
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\bin\Debug\SecureME.exe
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\bin\Debug\SecureME.pdb
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.ABOUT_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.CHANGE_PASSWORD_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.FOLDERS_DIALOG_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.HELP_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.MAIN_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.Properties.Resources.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.FILES_DIALOG_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.LOGIN_FRM.resources
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\Files Controller.csproj.GenerateResource.Cache
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.exe
+E:\System\Programming\C# Programming\MY PROJECTS\SecureME\SecureME\SecureME\obj\Debug\SecureME.pdb

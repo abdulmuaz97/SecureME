@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC0FD582-4C2F-4A47-B58E-A08F57566CBF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SecureME</RootNamespace>
+    <AssemblyName>SecureME</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SecureME.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>SecureME.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABOUT_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABOUT_FRM.Designer.cs">
+      <DependentUpon>ABOUT_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHANGE_PASSWORD_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHANGE_PASSWORD_FRM.Designer.cs">
+      <DependentUpon>CHANGE_PASSWORD_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FOLDERS_DIALOG_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FOLDERS_DIALOG_FRM.Designer.cs">
+      <DependentUpon>FOLDERS_DIALOG_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HELP_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELP_FRM.Designer.cs">
+      <DependentUpon>HELP_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN_FRM.Designer.cs">
+      <DependentUpon>MAIN_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FILES_DIALOG_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILES_DIALOG_FRM.Designer.cs">
+      <DependentUpon>FILES_DIALOG_FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="LOGIN_FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN_FRM.Designer.cs">
+      <DependentUpon>LOGIN_FRM.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ABOUT_FRM.resx">
+      <DependentUpon>ABOUT_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHANGE_PASSWORD_FRM.resx">
+      <DependentUpon>CHANGE_PASSWORD_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FOLDERS_DIALOG_FRM.resx">
+      <DependentUpon>FOLDERS_DIALOG_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELP_FRM.resx">
+      <DependentUpon>HELP_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN_FRM.resx">
+      <DependentUpon>MAIN_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILES_DIALOG_FRM.resx">
+      <DependentUpon>FILES_DIALOG_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN_FRM.resx">
+      <DependentUpon>LOGIN_FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HASHTAG_PIC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SECURITY_PIC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SECURITY_USER_PIC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABOUT_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CIRCLE_USER_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLEAR_ALL_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELETE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ERROR_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FILES_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FOLDERS_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HASHTAG_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HIDE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KEY_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOCKED_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENU_BTN_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MONITOR_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OFFLINE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONLINE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPEN_FILE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PASSWORD_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REFRESH_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SECURITY_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SECURITY_USER_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SETTINGS_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHUTDOWN_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UNHIDE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UNLOCKED_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOX_SHADOW_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLEAR_TEXTBOX_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLEAR_TEXTBOX_PIC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EYE_PASSWORD_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EXIT_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FORWARD_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FACEBOOK_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GITHUB_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INSTAGRAM_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TWITTER_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YOUTUBE_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOOGLE_PLUS_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOVED_FILL_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOVED_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HELP_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HELP_BIG_PIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BROWSE_PIC.png" />
+    <None Include="Resources\BROWSE_PIC1.png" />
+    <None Include="Resources\UPLOAD_PIC.png" />
+    <None Include="Resources\UPLOAD_PIC1.png" />
+    <Content Include="SecureME.ico" />
+    <Content Include="UAC.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
